@@ -1,0 +1,41 @@
+
+body {
+  background-color: lightgray;
+  height: max-content;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.navPost {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(158, 151, 151);
+  padding: 5px;
+}
+.itemPost {
+  color: lightgray;
+}
+.imagePost {
+  width: 100%;
+  height: min-content;
+  background-color: rgb(158, 151, 151);
+}
+.imagePost img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.footerPost {
+  font-size: small;
+  background-color: rgb(158, 151, 151);
+}
+.Post {
+  width: 20%;
+  margin: auto;
+  padding: 50px;
+}
+
